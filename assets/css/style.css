@@ -1,19 +1,18 @@
-
-.float {
-    text-align: right;
-}
-
 nav {
-   width:100%;
-   background-color: green;
-   border-width: 1px;
-   border: solid black;
+   width:960px;
+   background-color: #4aaaa5;
    color: white;
-   padding: 8px;
+   padding: 20px;
+   margin-bottom: 20px;
+   font-family: "arial";
+   border-bottom-style: solid;
+   border-bottom-width: 1px;
+   border-bottom-color: #cccccc;
+   
 }
 
 #name {
-    width: 79%;
+    width: 10%;
     float: left;
     border-right-style: none;
 }
@@ -21,10 +20,11 @@ nav {
 #about {
     border-left-style: none;
     float: left;
-    width: 6%;
+    width: 72%;
     border-right-style: none;
     text-align:right;
     padding-right: 0px;
+    background-color: #ffffff;
 
 }
 
@@ -36,6 +36,7 @@ nav {
     border-right-style: none;
     padding-right: 0px;
     padding-left: 2px;
+    background-color: #ffffff;
 }
 
 #portfolio {
@@ -45,4 +46,36 @@ nav {
     float: left;
     text-align: right;
     padding-right: 18px;
+    background-color: #ffffff;
+}
+
+#biopic {
+    float: left;
+    height: 200px;
+    width: 200px;
+}
+
+#aboutme {
+    float: left;
+    border-style: outset;
+    padding: 10px 20px 20px 20px;
+    border-top-style: none;
+}
+
+#aboutmetitle {
+    margin-top: 20px;
+    border-style: outset;
+    padding-left: 10px;
+    clear: both;
+    overflow: auto;
+    border-bottom-style: none;
+}
+
+p {
+    float: left;
+}
+
+#line{
+    border-style: solid;
+    background-color: black;
 }
