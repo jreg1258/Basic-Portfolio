@@ -1,3 +1,7 @@
+#aboutback {
+    background-image: url(../images/dark-grey-terrazzo.png);
+}
+
 nav {
    width:960px;
    background-color: #4aaaa5;
@@ -8,14 +12,20 @@ nav {
    border-bottom-style: solid;
    border-bottom-width: 1px;
    border-bottom-color: #cccccc;
-   
+
+}
+
+#imgbox {
+    float: left;
+    margin-right:10px;
 }
 
 #aboutsection {
-    margin-left: 30px;
-    overflow: auto;
-    clear: both;
-    background-color: blue;
+    background-color: #ffffff;
+    padding: 10px;
+    border-left: solid;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #name {
@@ -23,6 +33,7 @@ nav {
     float: left;
     border-right-style: none;
     font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 14px;
     padding-top:18px;
     padding-right: 12px;
@@ -30,6 +41,7 @@ nav {
 }
 
 #about {
+    font-family: Arial, Helvetica, sans-serif;
     border-left-style: none;
     float: left;
     width: 69%;
@@ -41,6 +53,7 @@ nav {
 }
 
 #contact {
+    font-family: Arial, Helvetica, sans-serif;
     border-left-style: none;
     float: left;
     width: 6%;
@@ -52,6 +65,7 @@ nav {
 }
 
 #portfolio {
+    font-family: Arial, Helvetica, sans-serif;
     padding-left: 0px;
     border-left-style: none;
     width: 5%;
@@ -63,16 +77,16 @@ nav {
 
 #biopic {
     float: left;
-    height: 300px;
-    width: 250px;
+    height: 400px;
+    width: 300px;
 }
 
 #aboutme {
     float: left;
     border-style: outset;
-    padding: 10px 20px 20px 20px;
     border-top-style: none;
     border-color: #dddddd;
+    
 }
 
 #aboutmetitle {
@@ -81,8 +95,8 @@ nav {
     padding-left: 10px;
     clear: both;
     overflow: auto;
-    border-bottom-style: none;
     border-color:#dddddd;
+    background-color: #ffffff;
 }
 
 
@@ -91,11 +105,8 @@ nav {
     background-color: black;
 }
 
-#background{
-    background-image: url('assets/images/dark-grey-terrazzo.png');
-    clear: both;
-    background-size: cover;
-    background-repeat: no-repeat;
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /*      contact page CSS      */
