@@ -34,10 +34,7 @@ nav {
    padding: 20px;
    margin-bottom: 20px;
    font-family: "arial";
-   border-bottom-style: solid;
-   border-bottom-width: 1px;
-   border-bottom-color: #cccccc;
-
+   padding-bottom: 19px;
 }
 
 #imgbox {
@@ -159,4 +156,14 @@ form {
     overflow: auto;
     padding: 5px 20px 30px;
     background-color: #ffffff;
+}
+
+
+
+
+
+/*   portfolio CSS */
+
+.folioicons {
+    position: relative;
 }
