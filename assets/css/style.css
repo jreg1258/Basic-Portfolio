@@ -55,7 +55,7 @@ nav {
         color: #777777;
         background-color: #ffffff;
         padding: 10px;
-        width: 100%;
+        width: 101%;
         font-family: Arial, Helvetica, sans-serif;
         margin-left: 0px;
 }
@@ -121,7 +121,7 @@ nav {
     border-style: outset;
     border-top-style: none;
     border-color: #dddddd; 
-    width: 100%;
+    width: 98%;
 }
 
 #aboutmetitle {
@@ -164,6 +164,60 @@ form {
 
 /*   portfolio CSS */
 
-.folioicons {
-    position: relative;
+
+#icon1 {
+    border-style:outset;
+    clear: both; 
+    overflow: auto;
+    position: absolute;
+    top: 180px;
+}
+
+#icon2 {
+
+}
+
+#icon3 {
+
+}
+
+#icon4 {
+
+}
+
+#icon5 {
+
+}
+
+#iconbanner { 
+    color: white;
+    background-color: teal;
+    position: absolute;
+
+}
+#wrapper {
+    overflow: auto;
+    clear: both;
+    margin-top: 20px;
+    background-color: white;
+}
+
+#port-title {
+    border-style: outset;
+    padding-left: 10px;
+    clear: both;
+    overflow: auto;
+    border-color:#dddddd;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+#cont-title {
+    border-style: outset;
+    padding-left: 10px;
+    clear: both;
+    overflow: auto;
+    border-color:#dddddd;
+    background-color: #ffffff;
+    width: 100%;
 }
