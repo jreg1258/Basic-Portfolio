@@ -159,6 +159,23 @@ form {
     overflow: auto;
     padding: 5px 20px 30px;
     background-color: #ffffff;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#formdiv {
+    margin: auto;
+}
+
+#cont-title {
+    border-style: outset;
+    padding-left: 10px;
+    clear: both;
+    overflow: auto;
+    border-color:#dddddd;
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
 }
 
 
@@ -213,6 +230,7 @@ form {
     border-color:#dddddd;
     background-color: #ffffff;
     width: 100%;
+    margin: auto;
 }
 
 #cont-title {
