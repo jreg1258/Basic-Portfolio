@@ -25,6 +25,9 @@ footer {
     width: 100%;
     padding: 15px;
     text-align: center;
+    border-top:5px;
+    border-top-color: #4aaaa5;
+    border-style: solid;
 }
 
 nav {
