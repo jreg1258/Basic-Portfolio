@@ -3,9 +3,17 @@ html, body {
     overflow-x: hidden;
 }
 
+.width{
+    margin: auto;
+    background-color: #ffffff;
+    overflow: auto;
+    clear: both;
+    width: 75%;
+    border: outset #dddddd;
+}
 #back {
     background-image: url(../images/dark-grey-terrazzo.png);
-
+    margin: 0px;
 }
 
 #tealstripe {
@@ -28,6 +36,7 @@ footer {
     border-top:5px;
     border-top-color: #4aaaa5;
     border-style: solid;
+    margin: auto;
 }
 
 nav {
@@ -48,8 +57,8 @@ nav {
 #aboutsection {
     background-color: #ffffff;
     padding: 10px;
+    padding-left: 310px;
     border-left: solid;
-    width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
 }
@@ -58,9 +67,10 @@ nav {
         color: #777777;
         background-color: #ffffff;
         padding: 10px;
-        width: 101%;
         font-family: Arial, Helvetica, sans-serif;
-        margin-left: 0px;
+        margin: auto;
+        width: 100%
+
 }
 
 #name {
@@ -109,7 +119,7 @@ nav {
     width: 5%;
     float: left;
     text-align: right;
-    padding-right: 18px;
+    padding-right: 20px;
     background-color: #ffffff;
 }
 
@@ -148,6 +158,15 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #4aaaa5;
     width: 100%;
+    padding: 10px;
+    border-bottom: outset #dddddd;
+    background-color: #777777;
+    margin: auto;
+}
+
+hr { 
+    margin: 0px;
+    margin-bottom: 10px;
 }
 
 /*      contact page CSS      */
@@ -155,12 +174,11 @@ h2 {
 
 form { 
     border-style:outset;
-    clear: both; 
-    overflow: auto;
     padding: 5px 20px 30px;
     background-color: #ffffff;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 40px auto 40px;
+    width: 75%;
+    margin-bottom: 40px;
 }
 
 #formdiv {
@@ -168,17 +186,13 @@ form {
 }
 
 #cont-title {
-    border-style: outset;
-    padding-left: 10px;
-    clear: both;
     overflow: auto;
-    border-color:#dddddd;
-    background-color: #ffffff;
-    width: 100%;
-    margin: auto;
+    clear: both;
 }
 
-
+textarea {
+    width: 100%;
+}
 
 
 
@@ -194,19 +208,38 @@ form {
 }
 
 #icon2 {
-
+    border-style:outset;
+    clear: both; 
+    overflow: auto;
+    position: absolute;
+    top: 180px;
+    left: 400px;
 }
 
 #icon3 {
+    border-style:outset;
+    clear: both; 
+    overflow: auto;
+    position: absolute;
+    top: 300px;
 
 }
 
 #icon4 {
-
+    border-style:outset;
+    clear: both; 
+    overflow: auto;
+    position: absolute;
+    top: 300px;
+    left: 400px;
 }
 
 #icon5 {
-
+    border-style:outset;
+    clear: both; 
+    overflow: auto;
+    position: absolute;
+    top: 420px;
 }
 
 #iconbanner { 
@@ -230,7 +263,6 @@ form {
     border-color:#dddddd;
     background-color: #ffffff;
     width: 100%;
-    margin: auto;
 }
 
 #cont-title {
