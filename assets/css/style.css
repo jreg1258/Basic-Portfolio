@@ -10,7 +10,7 @@ html, body {
     background-color: #ffffff;
     overflow: auto;
     clear: both;
-    width: 75%;
+    width: 100%;
     border: outset #dddddd;
 }
 #back {
@@ -165,9 +165,10 @@ h2 {
     color: #4aaaa5;
     width: 100%;
     padding: 10px;
-    border-bottom: outset #dddddd;
     background-color: #777777;
     margin: auto;
+    border-right: 1px outset;
+    width: 960px;
 }
 
 hr { 
@@ -177,6 +178,9 @@ hr {
 
 /*      contact page CSS      */
 
+#banner {
+    margin: 0px;
+}
 
 form { 
     padding: 5px 20px 30px;
