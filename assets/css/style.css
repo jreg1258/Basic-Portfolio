@@ -173,11 +173,10 @@ hr {
 
 
 form { 
-    border-style:outset;
     padding: 5px 20px 30px;
     background-color: #ffffff;
-    margin: 40px auto 40px;
-    width: 75%;
+    margin: 10px 10px 40px;
+    width: 100%;
     margin-bottom: 40px;
 }
 
@@ -191,7 +190,8 @@ form {
 }
 
 textarea {
-    width: 100%;
+    width: 80%;
+    margin-bottom: 10px;
 }
 
 
