@@ -18,13 +18,6 @@ html, body {
     margin: 0px;
 }
 
-#tealstripe {
-    height: 5px;
-    background-color: #4aaaa5;
-    position: fixed;
-    bottom: 10px;
-}
-
 footer {
     background-color: #666666;
     color: #777777;
