@@ -1,6 +1,8 @@
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    width: 960px;
+    margin: auto;
 }
 
 .width{
@@ -74,7 +76,7 @@ nav {
 }
 
 #name {
-    width: 14%;
+    width: 18%;
     float: left;
     border-right-style: none;
     font-size: 22px;
@@ -90,7 +92,7 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     border-left-style: none;
     float: left;
-    width: 69%;
+    width: 62%;
     border-right-style: none;
     text-align:right;
     padding-right: 0px;
@@ -103,7 +105,7 @@ nav {
     font-family: Arial, Helvetica, sans-serif;
     border-left-style: none;
     float: left;
-    width: 6%;
+    width: 5%;
     text-align: center;
     border-right-style: none;
     padding-right: 0px;
