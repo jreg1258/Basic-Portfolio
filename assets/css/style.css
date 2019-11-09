@@ -25,12 +25,12 @@ html, body {
     bottom: 10px;
 }
 
-footer {
+.footer {
     background-color: #666666;
     color: #777777;
     clear: both;
     overflow: auto;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     padding: 15px;
@@ -79,6 +79,7 @@ nav {
     width: 18%;
     float: left;
     border-right-style: none;
+    border-top: 1px outset #dddddd;
     font-size: 22px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 14px;
@@ -91,11 +92,12 @@ nav {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     border-left-style: none;
+    border-top: 1px outset #dddddd;
     float: left;
     width: 62%;
     border-right-style: none;
     text-align:right;
-    padding-right: 0px;
+    padding-right: 5px;
     background-color: #ffffff;
 
 }
@@ -104,11 +106,12 @@ nav {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     border-left-style: none;
+    border-top: 1px outset #dddddd;
     float: left;
     width: 5%;
     text-align: center;
     border-right-style: none;
-    padding-right: 0px;
+    padding-right: 15px;
     padding-left: 2px;
     background-color: #ffffff;
 }
@@ -117,6 +120,7 @@ nav {
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 0px;
+    border-top: 1px outset #dddddd;
     border-left-style: none;
     width: 5%;
     float: left;
