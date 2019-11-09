@@ -206,7 +206,7 @@ textarea {
     position: absolute;
     top: 180px;
     left: 160px;
-    height:200px;
+    height:210px;
     width: 200px;
 }
 
@@ -217,7 +217,7 @@ textarea {
     position: absolute;
     top: 180px;
     left: 420px;
-    height: 200px;
+    height: 210px;
 }
 
 #icon3 {
@@ -227,7 +227,7 @@ textarea {
     position: absolute;
     top: 450px;
     left: 160px;
-    height: 200px;
+    height: 210px;
 }
 
 #icon4 {
@@ -237,7 +237,7 @@ textarea {
     position: absolute;
     top: 450px;
     left: 420px;
-    height: 200px;
+    height: 210px;
 }
 
 #icon5 {
@@ -247,7 +247,7 @@ textarea {
     position: absolute;
     top: 720px;
     left: 160px;
-    height: 200px;
+    height: 210px;
 }
 
 #iconbanner { 
@@ -262,7 +262,7 @@ textarea {
     text-align: center;
 }
 
-#relative {
+.relative {
     position: relative;
     text-align: center;
 }
