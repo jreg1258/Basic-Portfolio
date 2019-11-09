@@ -206,6 +206,7 @@ textarea {
     position: absolute;
     top: 180px;
     left: 160px;
+    height:200px;
 }
 
 #icon2 {
@@ -215,6 +216,7 @@ textarea {
     position: absolute;
     top: 180px;
     left: 420px;
+    height: 200px;
 }
 
 #icon3 {
@@ -224,6 +226,7 @@ textarea {
     position: absolute;
     top: 450px;
     left: 160px;
+    height: 200px;
 }
 
 #icon4 {
@@ -233,6 +236,7 @@ textarea {
     position: absolute;
     top: 450px;
     left: 420px;
+    height: 200px;
 }
 
 #icon5 {
@@ -241,14 +245,21 @@ textarea {
     overflow: auto;
     position: absolute;
     top: 720px;
-    left: 350px;
+    left: 160px;
+    height: 200px;
 }
 
 #iconbanner { 
     color: white;
     background-color: teal;
     position: absolute;
+    top: 8px;
+    left: 16px;
+}
 
+#relative {
+    position: relative;
+    text-align: center;
 }
 #wrapper {
     overflow: auto;
